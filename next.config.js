@@ -7,7 +7,6 @@ module.exports = withBundleAnalyzer({
   poweredByHeader: false,
   trailingSlash: true,
   basePath: '',
-  assetPrefix: ".",
   reactStrictMode: true,
   webpack: (config, options) => {
     config.plugins.push(new StylelintPlugin());
