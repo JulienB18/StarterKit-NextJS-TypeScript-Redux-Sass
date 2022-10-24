@@ -7,7 +7,11 @@ module.exports = withBundleAnalyzer({
   poweredByHeader: false,
   trailingSlash: true,
   basePath: '',
+  assetPrefix: '.',
   reactStrictMode: true,
+  experimental: {
+    scrollRestoration: true,
+  },
   webpack: (config, options) => {
     config.plugins.push(new StylelintPlugin());
     return config;

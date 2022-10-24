@@ -36,6 +36,6 @@
         "isolatedModules": true,
         "incremental": true
     },
-    "exclude": ["./out/**/*", "./node_modules/**/*"],
-    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src"]
+    "exclude": ["./out/**/*", "./node_modules/**/*", "next.config.js"],
+    "include": ["next-env.d.ts", "./src/*.ts", "./src/*.tsx"]
 }
